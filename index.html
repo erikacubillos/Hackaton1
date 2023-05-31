@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Juego</title>
 </head>
 <body>
-    <div class="carGame">
-        <div class="score"> 
-        </div>
-        <div class="startScreen">
+    <!--Contenedor del juego-->
+    <div id="container" class="carGame">
+        <!--Puntuación-->
+        <div id="scores" class="score"></div>
+        <!--Puntuación-->
+        <div id="card-start" class="startScreen">
             <h1>Inicia la carrera</h1>
             <p>Presione aquí para comenzar<br> Si chocas pierdes ...</p>
         </div>
-        <div class="gameArea"></div>
+        <!--area del juego-->
+        <div id="game-area" class="gameArea"></div>
     </div>
     <script src="script.js"></script>
 </body>
